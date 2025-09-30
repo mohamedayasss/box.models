@@ -1,3 +1,24 @@
-<link rel="stylesheet" href="STYLE.CSS">
-<H1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus, laboriosam officiis quas minus quos maxime! Delectus beatae deserunt distinctio eos deleniti molestiae enim nemo ipsam provident odio, voluptas asperiores vel id, explicabo perferendis nam consequuntur repellendus voluptatibus maiores itaque.</H1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus doloribus tempora dicta perferendis dignissimos ab minus iste voluptate, illum culpa expedita officiis sequi, aperiam numquam mollitia rem sed sapiente?</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model </title>
+</head>
+<style>
+    .container{
+        border: solid black 100px;
+        background-color: red;
+        color: rgb(0, 171, 3);
+        width: 20%;
+        margin: 50px;
+        padding: 70px;
+        offset-anchor: 10px;
+    }
+</style>
+<body>
+    <h1 class="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quidem repudiandae ipsum nam aspernatur ea vel esse rctetur iste tempore?
+    </h1>
+</body>
+</html>
